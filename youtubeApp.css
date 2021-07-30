@@ -1,0 +1,80 @@
+body{
+    margin:0px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navBar{
+    width:100%;
+    height:60px;
+    /* border:1px solid #000; */
+    background-color: rgb(53, 53, 53);
+}
+
+#menu{
+    width:25px;
+    height:25px;
+    margin:18px;
+    /* border:1px solid white; */
+    float:left;
+}
+
+#head{
+    padding:18px;
+    width:180px;
+}
+
+#head img{
+    width:30px;
+    height:30px;
+    float:left;
+}
+
+#head span{
+    color:white;
+    float:left;
+    margin-top:3px;
+}
+
+#inputSearch{
+    margin-left:200px;
+    float:left;
+    margin-top:-18px;
+    width:400px;
+}
+
+#searchButton{
+    border:none;
+    border-radius:0px;
+    margin-top:-18px;
+    float:left;
+    padding:0px;
+    height:18px !important;
+}
+
+#signIn{
+    border:2px solid rgb(0, 153, 255);
+    margin:10px 20px;
+    color:rgb(0, 153, 255);
+    float:right;
+    width:100px !important;
+    height:22px;
+    text-align: center;
+    padding:8px;
+    margin-top:-25px;
+}
+
+#threeDots img{
+    width:25px;
+    height:25px;
+    float:right;
+    margin:0px 5px;
+    margin-top:-18px !important;
+}
+
+#videos{
+    display:grid;
+    grid-template-columns: repeat(4, 22%);
+    grid-gap:20px;
+    margin:50px;
+    padding:50px
+}
